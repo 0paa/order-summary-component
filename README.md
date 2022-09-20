@@ -1,2 +1,1 @@
-all css basic design
-
+Basic design css-all
