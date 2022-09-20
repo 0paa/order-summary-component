@@ -1,1 +1,1 @@
-only-css basic component design
+css-only basic component design
