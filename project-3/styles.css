@@ -1,0 +1,126 @@
+/*==============
+css reset
+==============*/
+html,
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+/*==============
+typography
+==============*/
+p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.7em;
+}
+a {
+  font-weight: 700;
+}
+h1,
+h2 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin: 0;
+}
+.egreement {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+.cancel {
+  margin-top: 1em;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+.change {
+  color: (hsl(245, 74%, 70%));
+}
+.payment-management {
+  background-color: hsl(225, 100%, 98%);
+}
+.container {
+  background-color: white;
+}
+/*======layout=======*/
+.container {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 36rem;
+  width: 21.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-image: url(images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 2em;
+  border-radius: 20px;
+}
+.payment-management {
+  align-items: center;
+  display: flex;
+  padding: 1em;
+  border-radius: 15px;
+  margin: 1.1em 0;
+}
+.payment-management span {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.change {
+  font-size: 0.8rem;
+  margin-left: auto;
+}
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-size: 1rem;
+}
+button {
+  margin: 0.75em 0;
+}
+.egreement {
+  padding: 1rem;
+  border-radius: 10px;
+}
+p:first-of-type {
+  margin: 0 1em;
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 26rem;
+    height: 40rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+    margin-bottom: 0.5em;
+  }
+  .payment-management {
+    padding: 1.5em;
+  }
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
