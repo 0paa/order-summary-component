@@ -1,3 +1,4 @@
+order-summary-component
 a simple raw-css design, coded by me,copied the visual design.
 https://heartfelt-clafoutis-e7c0d6.netlify.app
 
